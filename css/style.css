@@ -1,0 +1,105 @@
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --bg-primary: #202020;
+    --bg-secondary: #151515;
+    --text-primary: #EAEAEA;
+    --text-secondary: #EFEFEF;
+    --navbar-primary: #151515;
+    --navbar-secondary: #1A1A1A;
+    --accent: #FFFF00;
+    --navbar-transition-speed: 500ms;
+
+    /* Firefox scrollbar */
+    scrollbar-color: var(--accent) var(--bg-secondary);
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--accent);
+}
+
+#title {
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+#title h1 span {
+    transition: color 200ms ease;
+}
+
+#title h1 span:hover {
+    color: var(--accent);
+}
+
+#title h1 {
+    font-size: 4rem;
+    letter-spacing: 0.2ch;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+#title h2 {
+    font-size: 2rem;
+    letter-spacing: 0.1ch;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+/* nav { */
+    /* border: 2px solid white; */
+    /* background-color: #121212; */
+/*     display: flex; */
+/*     align-content: center; */
+/*     justify-content: space-evenly; */
+/*     text-align: center; */
+/*     width: 50%; */
+/*     margin: auto; */
+/*     margin-top: 20px; */
+/* } */
+/*  */
+/* nav > a { */
+/*     font-size: 200%; */
+/*     text-decoration: none; */
+/*     color: var(--text-primary); */
+/*     background-color: inherit; */
+/*     border-style: solid; */
+/*     border-size: 3px; */
+/*     border-radius: 3px; */
+/*     border-color: white; */
+/*     padding: 0.5% 1% 0.5% 1%; */
+/* } */
+/*  */
+/* nav > a:hover { */
+/*     border-color: yellow; */
+/* } */
+/*  */
+/* main { */
+/*     color: white; */
+/*     text-align: center; */
+/* } */
+/*  */
+/* main > h1 { */
+/*     font-weight: normal; */
+/* } */
