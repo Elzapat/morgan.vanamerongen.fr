@@ -39,11 +39,11 @@ body::-webkit-scrollbar-thumb {
     color: var(--text-primary);
 }
 
-#title h1 span {
+#title * span {
     transition: color 200ms ease;
 }
 
-#title h1 span:hover {
+#title * span:hover {
     color: var(--accent);
 }
 
